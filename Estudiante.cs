@@ -27,5 +27,13 @@ namespace EstudianteUniversidad //definicion del namespace
             Console.WriteLine("Ingresa el numero de materias inscritas por el estudiante:");
             numeroMateriasInscritas = Convert.ToInt32(Console.ReadLine());
         }
+        public int CalcularEdad() //metodo para calcular la edad del estudiante
+        {
+            return DateTime.Now.Year - fechaNacimiento;
+        }
+        public int CalcularHorasTotalesEstudio() //metodo para calcular el total de horas cursadas por el estudiante
+        {
+            return numeroMateriasInscritas * 4; //cada materia tiene 4 horas
+        }
     }
 }
