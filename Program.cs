@@ -6,7 +6,7 @@ namespace EstudianteUniversidad
     {
         static void Main(string[] args)
         {
-
+            Estudiante estudiante = new Estudiante();
         }
     }
 }
