@@ -1,1 +1,12 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace EstudianteUniversidad
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+        }
+    }
+}
